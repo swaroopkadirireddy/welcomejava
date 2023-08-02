@@ -2,13 +2,13 @@
 <web-app>
 
 	<servlet>
-		<servlet-name>servletName</servlet-name>
-		<servlet-class>servletClass</servlet-class>
+		<servlet-name>HelloWorld</servlet-name>
+		<servlet-class>hello.HelloWorld</servlet-class>
 	</servlet>
  
 	<servlet-mapping>
-		<servlet-name>servletName</servlet-name>
-		<url-pattern>*.*</url-pattern>
+		<servlet-name>HelloWorld</servlet-name>
+		<url-pattern>/*</url-pattern>
 	</servlet-mapping>
 
 </web-app>
